@@ -9,7 +9,6 @@ import "../public/assets/custom.scss";
 
 import "photoswipe/dist/photoswipe.css";
 import "rc-slider/assets/index.css";
-import Cart from "@/components/common/Cart";
 import { useEffect } from "react";
 import anime from "animejs";
 import { usePathname } from "next/navigation";
@@ -18,7 +17,9 @@ import BacktoTop from "@/components/common/BacktoTop";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ContactModal from "@/components/modals/ContactModal";
 import NewsletterModal from "@/components/modals/NewsletterModal";
-import SearchModal from "@/components/modals/SearchModal";
+// Theme shop/search chrome — keep unlinked
+// import SearchModal from "@/components/modals/SearchModal";
+// import Cart from "@/components/common/Cart";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -112,8 +113,8 @@ export default function RootLayout({ children }) {
           <MobileMenu />
           <ContactModal />
           <NewsletterModal />
-          <SearchModal />
-          <Cart />
+          {/* <SearchModal /> */}
+          {/* <Cart /> */}
           <BacktoTop />
         </Context>
       </body>

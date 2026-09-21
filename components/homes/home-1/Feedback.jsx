@@ -27,6 +27,7 @@ export default function Feedback() {
                   <div key={index} className="uc-grid-margin uc-first-column">
                     <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 border">
                       <div className="panel vstack items-start gap-2">
+                        {/* Theme fake brand logos — keep unlinked
                         <div className="panel">
                           <div className="hstack h-48px">
                             <Image
@@ -39,6 +40,7 @@ export default function Feedback() {
                             />
                           </div>
                         </div>
+                        */}
                         <p className="fs-6 lg:fs-5 text-dark dark:text-white text-opacity-70">
                           {item.testimonial}
                         </p>

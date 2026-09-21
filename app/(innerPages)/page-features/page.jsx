@@ -6,7 +6,8 @@ import KeyFeatures from "@/components/innerpages/features/KeyFeatures";
 import Faq from "@/components/homes/home-2/Faq";
 import Testimonials from "@/components/homes/home-3/Testimonials";
 import Cta from "@/components/innerpages/features/Cta";
-import Brands2 from "@/components/common/Brands2";
+// Theme brand-logo carousel — keep unlinked
+// import Brands2 from "@/components/common/Brands2";
 export const metadata = {
   title: "Curriculum || Build or Pass — Agentic AI Course",
   description:
@@ -23,6 +24,7 @@ export default function FeaturesPage() {
           <div className="pt-6 xl:pt-9"></div>
           <Faq />
           <Testimonials />
+          {/* Theme brand logos — keep unlinked
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
@@ -44,6 +46,7 @@ export default function FeaturesPage() {
               </div>
             </div>
           </div>
+          */}
           <Cta />
         </div>
         <Footer2 />

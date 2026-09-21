@@ -2,7 +2,8 @@ import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
 import About from "@/components/innerpages/About";
-import Brands from "@/components/common/Brands2";
+// Theme brand-logo carousel — keep unlinked
+// import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
 import AboutValues from "@/components/innerpages/AboutValues";
 import Feedback from "@/components/homes/home-2/Feedback";
@@ -21,6 +22,7 @@ export default function AboutPage() {
         <Header2 />
         <div id="wrapper" className="wrap">
           <About />
+          {/* Theme brand logos — keep unlinked
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
@@ -40,6 +42,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
+          */}
           <About2 />
           <AboutValues />
           <Feedback />

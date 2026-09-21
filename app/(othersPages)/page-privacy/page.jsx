@@ -4,10 +4,9 @@ import Footer2 from "@/components/footers/Footer2";
 import Breadcumb from "@/components/otherPages/Breadcumb";
 import Privacy from "@/components/otherPages/Privacy";
 export const metadata = {
-  title:
-    "Privacy || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Privacy || Build or Pass — Agentic AI Course",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Privacy policy for the Build or Pass Agentic AI course.",
 };
 export default function PrivacyPage() {
   return (

@@ -1,7 +1,8 @@
 import Header1 from "@/components/headers/Header1";
 import Features from "@/components/homes/home-1/Features";
 import Hero from "@/components/homes/home-1/Hero";
-import Integretion from "@/components/homes/home-1/Integretion";
+// Theme SaaS tools block (Slack, Salesforce, HubSpot, etc.) — keep unlinked
+// import Integretion from "@/components/homes/home-1/Integretion";
 import Facts from "@/components/homes/home-1/Facts";
 import Pricing from "@/components/homes/home-1/Pricing";
 import Feedback from "@/components/homes/home-1/Feedback";
@@ -22,7 +23,7 @@ export default function HomePage1() {
         <div id="wrapper" className="wrap">
           <Hero />
           <Features />
-          <Integretion />
+          {/* <Integretion /> */}
           <Facts />
           <Pricing />
           <Feedback />

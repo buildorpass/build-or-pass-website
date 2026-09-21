@@ -4,7 +4,8 @@ import Footer2 from "@/components/footers/Footer2";
 import Contact1 from "@/components/innerpages/Contact1";
 import ContactLinks from "@/components/innerpages/ContactLinks";
 import Faq from "@/components/homes/home-2/Faq";
-import Brands from "@/components/common/Brands2";
+// Theme brand-logo carousel — keep unlinked
+// import Brands from "@/components/common/Brands2";
 // import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title: "Join waitlist || Build or Pass — Agentic AI Course",
@@ -21,6 +22,7 @@ export default function ContactPage() {
 
           <ContactLinks />
           <Faq />
+          {/* Theme brand logos — keep unlinked
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
@@ -42,6 +44,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+          */}
           {/* Blog grid links to /blog — keep unlinked
           <Blogs />
           */}

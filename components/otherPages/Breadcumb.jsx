@@ -25,7 +25,7 @@ export default function Breadcumb() {
             <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />
           </li>
           <li>
-            <span className="opacity-50">Sign in</span>
+            <span className="opacity-50">Legal</span>
           </li>
         </ul>
       </div>

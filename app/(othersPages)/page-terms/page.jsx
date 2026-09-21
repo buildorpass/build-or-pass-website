@@ -4,10 +4,9 @@ import Footer2 from "@/components/footers/Footer2";
 import Breadcumb from "@/components/otherPages/Breadcumb";
 import Terms from "@/components/otherPages/Terms";
 export const metadata = {
-  title:
-    "Terms || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Terms || Build or Pass — Agentic AI Course",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Terms of service for the Build or Pass Agentic AI course.",
 };
 export default function TermsPage() {
   return (

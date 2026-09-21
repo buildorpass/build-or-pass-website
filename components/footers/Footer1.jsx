@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import LanguageSelect from "../common/LanguageSelect";
+// Theme language switcher — keep unlinked
+// import LanguageSelect from "../common/LanguageSelect";
 import { footerLinks, socialLinks } from "@/data/footer";
 
 export default function Footer1() {
@@ -29,6 +30,7 @@ export default function Footer1() {
                         interviews, get hired.
                       </p>
                     </div>
+                    {/* Theme app-store badges — keep unlinked
                     <div className="hstack items-start gap-1">
                       <a href="#">
                         <Image
@@ -51,6 +53,7 @@ export default function Footer1() {
                         />
                       </a>
                     </div>
+                    */}
                   </div>
                 </div>
                 {footerLinks.map((section, index) => (
@@ -94,8 +97,10 @@ export default function Footer1() {
                     </li>
                   ))}
                 </ul>
+                {/* Theme language switcher — keep unlinked
                 <div className="vr" />
                 <LanguageSelect />
+                */}
               </div>
             </div>
           </div>

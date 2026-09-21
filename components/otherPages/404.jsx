@@ -1,5 +1,6 @@
 "use client";
-import { openSearchModal } from "@/utlis/toggleSearchModal";
+// Theme search modal — keep unlinked
+// import { openSearchModal } from "@/utlis/toggleSearchModal";
 import Link from "next/link";
 
 export default function Notfound() {
@@ -21,12 +22,14 @@ export default function Notfound() {
           >
             Go back home
           </Link>
+          {/* Theme search modal — keep unlinked
           <p>
             Why Not try to search again?
             <a className="uc-link" onClick={openSearchModal} data-uc-toggle>
               Search now
             </a>
           </p>
+          */}
         </div>
       </div>
     </div>

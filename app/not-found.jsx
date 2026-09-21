@@ -4,10 +4,8 @@ import Footer2 from "@/components/footers/Footer2";
 import Breadcumb from "@/components/otherPages/Breadcumb";
 import Notfound from "@/components/otherPages/404";
 export const metadata = {
-  title:
-    "Not Found || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Not Found || Build or Pass — Agentic AI Course",
+  description: "This page does not exist. Go back to the Build or Pass course.",
 };
 export default function NotFoundPage() {
   return (

@@ -4,7 +4,8 @@ import Footer2 from "@/components/footers/Footer2";
 
 import Faq from "@/components/homes/home-2/Faq";
 import Testimonials from "@/components/homes/home-3/Testimonials";
-import Brands from "@/components/common/Brands2";
+// Theme brand-logo carousel — keep unlinked
+// import Brands from "@/components/common/Brands2";
 import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
 export const metadata = {
@@ -22,6 +23,7 @@ export default function PricingPage() {
           {/* <div className="pt-6 xl:pt-9"></div> */}
           <Faq />
           <Testimonials />
+          {/* Theme brand logos — keep unlinked
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
@@ -43,6 +45,7 @@ export default function PricingPage() {
               </div>
             </div>
           </div>
+          */}
           <Cta />
         </div>
         <Footer2 />

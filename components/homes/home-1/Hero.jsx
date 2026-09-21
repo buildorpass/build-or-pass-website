@@ -1,5 +1,6 @@
 "use client";
-import Brands from "@/components/common/Brands";
+// Theme brand-logo carousel — keep unlinked
+// import Brands from "@/components/common/Brands";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -232,6 +233,7 @@ export default function Hero() {
                   </a>
                 </div>
               </div>
+              {/* Theme brand logos — keep unlinked
               <div className="brands panel overflow-hidden mt-4 sm:mt-6 xl:mt-8 opacity-50">
                 <div
                   className="block-panel panel"
@@ -242,6 +244,7 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
+              */}
             </div>
           </div>
         </div>

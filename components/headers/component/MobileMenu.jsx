@@ -105,6 +105,7 @@ export default function MobileMenu() {
           </button>
         </header>
         <div className="panel">
+          {/* Theme search field — keep unlinked
           <form
             onSubmit={(e) => e.preventDefault()}
             id="search-panel"
@@ -120,6 +121,7 @@ export default function MobileMenu() {
               <i className="unicon-search icon-1" />
             </span>
           </form>
+          */}
           <div
             className="uc-sticky-placeholder"
             style={{ height: 40, width: 290, margin: "0px 0px 16px" }}

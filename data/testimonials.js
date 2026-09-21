@@ -121,7 +121,7 @@ export const testimonials2 = [
   {
     brandImg: "/assets/images/brands/brand-03.svg",
     testimonial:
-      "“I used the same projects at work and in interviews: Slack and HubSpot agents, not another chatbot.”",
+      "“I used the same projects at work and in interviews: tool-calling and RAG agents, not another chatbot.”",
     authorImg: "/assets/images/avatars/04.png",
     authorName: "Natalia Larsson",
     authorRole: "Engineering Lead",
