@@ -25,7 +25,7 @@ export const panels = [
     darkIcon: "/assets/images/template/icon-internet-dark.svg",
     altText: "internet-icon",
     title: "Email us",
-    description: "Questions about projects, interviews, or seats.",
+    description: "Payments, refunds, and course questions.",
     linkText: "Send a note",
     linkUrl: "mailto:hello@buildorpass.com",
   },

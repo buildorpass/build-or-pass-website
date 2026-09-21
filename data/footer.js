@@ -43,6 +43,8 @@ export const footerLinks = [
     links: [
       { href: "/page-terms", label: "Terms of service" },
       { href: "/page-privacy", label: "Privacy policy" },
+      { href: "/page-refund", label: "Refund policy" },
+      { href: "/page-shipping", label: "Delivery policy" },
       // { href: "/blog", label: "Blog" },
       // { href: "/blog-details/1", label: "Blog detail" },
       // { href: "/page-terms", label: "FAQ" },

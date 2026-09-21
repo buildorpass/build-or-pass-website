@@ -53,20 +53,20 @@ export default function Header1() {
                 <Link
                   className="panel text-none"
                   href={`/`}
-                  style={{ width: 140 }}
+                  style={{ width: 196 }}
                 >
                   <Image
                     className="dark:d-none"
                     alt="Build or Pass"
                     src="/assets/images/common/logo-light.svg"
-                    width="117"
+                    width="196"
                     height="40"
                   />
                   <Image
                     className="d-none dark:d-block"
                     alt="Build or Pass"
                     src="/assets/images/common/logo-dark.svg"
-                    width="117"
+                    width="196"
                     height="40"
                   />
                 </Link>

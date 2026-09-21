@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Privacy() {
   return (
@@ -12,83 +13,111 @@ export default function Privacy() {
           </header>
           <div className="page-content panel fs-6 md:fs-5">
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English.
+              This Privacy Policy applies to the Build or Pass website and the
+              Agentic AI course (the “Course”). It explains what personal
+              information we collect, why we collect it, and how we use it.
+              By using this website, joining the waitlist, or paying for a
+              seat, you agree to this policy.
             </p>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Who we are</h3>
             <p>
-              Many desktop publishing packages and web page editors now use
-              Lorem Ipsum as their default model text, and a search for 'lorem
-              ipsum' will uncover many web sites still in their infancy. Various
-              versions have evolved over the years, sometimes by accident,
-              sometimes on purpose (injected humour and the like).
-            </p>
-            <p>
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the first true
-              generator on the Internet. It uses a dictionary of over 200 Latin
-              words, combined with a handful of model sentence structures, to
-              generate Lorem Ipsum which looks reasonable. The generated Lorem
-              Ipsum is therefore always free from repetition, injected humour,
-              or non-characteristic words etc.
+              Build or Pass operates this website and the Course. For privacy
+              questions or a data request, email{" "}
+              <a href="mailto:hello@buildorpass.com">hello@buildorpass.com</a>.
             </p>
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
-              Determination of personal information of users
+              Information we collect
             </h3>
             <ul className="list list-bullets">
               <li>
-                All the Lorem Ipsum generators on the Internet tend to repeat
-                predefined chunks as necessary, making this the first true
-                generator on the Internet.
+                Identity and contact details you submit: name, email, phone
+                number, role, and stack.
               </li>
               <li>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures, to generate Lorem Ipsum
-                which looks reasonable. The generated Lorem Ipsum is therefore
-                always free from repetition, injected humour, or
-                non-characteristic words etc.
+                Waitlist and enrolment details: goals, course interest, and
+                messages you send us.
               </li>
               <li>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.
+                Payment details processed by our payment partners (Razorpay,
+                PayU, or PhonePe). We do not store your full card, UPI, or
+                net-banking credentials on our servers.
+              </li>
+              <li>
+                Technical data: IP address, browser type, device, and pages
+                visited, to keep the site working and secure.
               </li>
             </ul>
-            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
-              Reasons for collecting and processing user personal information
-            </h3>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">How we use it</h3>
             <ul className="uk-list uk-list-decimal uk-margin-medium@m">
               <li>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters.
+                To run the waitlist, open seats, and deliver the Course
+                (labs, recordings, and mentor communication).
               </li>
               <li>
-                All the Lorem Ipsum generators on the Internet tend to repeat
-                predefined chunks as necessary, making this the first true
-                generator on the Internet.
+                To take payment, issue invoices or receipts, process refunds,
+                and prevent fraud.
               </li>
               <li>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                To reply to support, interview-prep, and billing questions.
+              </li>
+              <li>
+                To meet Indian law, including tax, accounting, and payment
+                aggregator requirements.
               </li>
             </ul>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Payments</h3>
             <p>
-              All generators on the Internet tend to repeat predefined chunks as
-              necessary, making this the first true generator on the Internet.
-              It uses a dictionary of over 200 Latin words, combined with a
-              handful of model sentence structures, to generate Lorem Ipsum
-              which looks reasonable. The generated Lorem Ipsum is therefore
-              always free from repetition, injected humour, or
-              non-characteristic words etc.
+              When you pay for a seat, the payment is handled by Razorpay,
+              PayU, and/or PhonePe. Those companies process your payment data
+              under their own policies. We receive confirmation of payment
+              (success or failure), amount, and a transaction reference — not
+              your full payment credentials.
+            </p>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Sharing</h3>
+            <p>
+              We do not sell your personal information. We share it only with
+              payment gateways, email and hosting providers we use to run the
+              Course, and authorities when the law requires it.
+            </p>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Retention</h3>
+            <p>
+              Waitlist and account data is kept while you are in a cohort or
+              on the waitlist, and as long as tax, accounting, or dispute
+              rules require. You may ask us to delete data we are not legally
+              required to keep.
+            </p>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Your rights</h3>
+            <p>
+              You may request access, correction, or deletion of your personal
+              information, or withdraw waitlist consent, by emailing{" "}
+              <a href="mailto:hello@buildorpass.com">hello@buildorpass.com</a>.
+              We will respond within a reasonable time.
+            </p>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
+              Grievance officer
+            </h3>
+            <p>
+              Grievance Officer, Build or Pass
+              <br />
+              Email:{" "}
+              <a href="mailto:hello@buildorpass.com">hello@buildorpass.com</a>
+              <br />
+              We aim to acknowledge privacy complaints within 48 hours and
+              resolve them within 30 days.
+            </p>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Related policies</h3>
+            <p>
+              See also our{" "}
+              <Link href="/page-terms">Terms of service</Link>,{" "}
+              <Link href="/page-refund">Cancellation and refund policy</Link>,
+              and{" "}
+              <Link href="/page-shipping">Delivery policy</Link>.
             </p>
           </div>
           <div className="page-footer panel">
-            <p className="fs-7 opacity-60 m-0">Last updated: 27 Oct, 2024</p>
+            <p className="fs-7 opacity-60 m-0">
+              Last updated: 21 September 2026
+            </p>
           </div>
         </div>
       </div>

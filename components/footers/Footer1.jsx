@@ -77,13 +77,13 @@ export default function Footer1() {
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>
-                    <Link href={`/page-privacy`}>Privacy notice</Link>
+                    <Link href={`/page-privacy`}>Privacy</Link>
                   </li>
                   <li>
-                    <Link href={`/page-terms`}>Legal</Link>
+                    <Link href={`/page-terms`}>Terms</Link>
                   </li>
                   <li>
-                    <a href="#">Cookie settings</a>
+                    <Link href={`/page-refund`}>Refunds</Link>
                   </li>
                 </ul>
               </div>

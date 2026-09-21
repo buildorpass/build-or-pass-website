@@ -136,7 +136,7 @@ export default function Contact1() {
                       <a className="uc-link" href="mailto:hello@buildorpass.com">
                         email
                       </a>
-                      .
+                      . For payments and refunds use the same address.
                     </p>
                   </form>
                 </div>
