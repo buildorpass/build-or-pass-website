@@ -21,8 +21,8 @@ export default function Features() {
                 What this course covers
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                Skills, projects, and interview prep — so you can build agents
-                and get hired.
+                Skills, projects, and interview prep — Python, ML, LLMs, RAG,
+                agents, then get hired.
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">
@@ -37,30 +37,28 @@ export default function Features() {
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Core skills</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Foundations</a>
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
                     className={`${activeTab == 2 ? "uc-active" : ""}`}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Projects</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Generative AI</a>
                   </li>
                   <li
                     className={`${activeTab == 3 ? "uc-active" : ""}`}
                     onClick={() => setActiveTab(3)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">
-                      Interview prep
-                    </a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Agentic AI</a>
                   </li>
                   <li
                     className={`${activeTab == 4 ? "uc-active" : ""}`}
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Get hired</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Interview prep</a>
                   </li>
                 </ul>
               </div>
@@ -77,7 +75,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Learn the Agentic AI skills interviews actually test"
+                              alt="Python and ML foundations"
                               src="/assets/images/template/feature-image-02.jpg"
                               width="1200"
                               height="1200"
@@ -90,13 +88,12 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Learn the skills interviews actually test
+                                    Python, stats, ML, and deep learning
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Tool calling, agent loops, RAG, and
-                                    multi-agent patterns. Enough to build
-                                    projects — and to answer interview
-                                    follow-ups.
+                                    The course starts here. Python for AI
+                                    engineers, interview math, machine learning,
+                                    then deep learning — before you touch LLMs.
                                   </p>
                                  <Link
                                     href="/page-features"
@@ -122,7 +119,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Ship portfolio projects you can demo"
+                              alt="Generative AI and LLMs"
                               src="/assets/images/template/feature-image-03.jpg"
                               width="1200"
                               height="1200"
@@ -135,12 +132,12 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Ship portfolio projects you can demo
+                                    Prompts, LLMs, fine-tuning, transformers
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Each module ends in a working agent — RAG,
-                                    tools, multi-agent. You leave with GitHub
-                                    projects you can demo in interviews.
+                                    Prompt engineering, LLM internals,
+                                    fine-tuning, and transformer architecture
+                                    Q&A. The core of a Generative AI interview.
                                   </p>
                                   <Link
                                     href="/page-features"
@@ -166,7 +163,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Prep to explain your work in interviews"
+                              alt="Agentic AI with LangChain and LangGraph"
                               src="/assets/images/template/feature-image-01.jpg"
                               width="1200"
                               height="1200"
@@ -179,12 +176,12 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Prep to explain your work in interviews
+                                    LangChain, LangGraph, CrewAI, AutoGen
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Architecture, tradeoffs, evals, and failure
-                                    modes. Practice walking through your
-                                    projects the way interviewers actually ask.
+                                    Agent patterns, tools, RAG, and multi-agent
+                                    workflows you can demo — and explain in
+                                    interviews.
                                   </p>
                                 <Link
                                     href="/page-features"
@@ -210,7 +207,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Get hired with a story you can defend"
+                              alt="Interview prep for Generative AI roles"
                               src="/assets/images/template/feature-image-04.jpg"
                               width="1200"
                               height="1200"
@@ -223,12 +220,12 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Get hired with a story you can defend
+                                    Scenarios, live coding, then get hired
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    A shipped agent, a clear write-up, and the
-                                    language to defend it. Use it to get hired,
-                                    switch roles, or ship AI at work.
+                                    Agents-and-tools rounds, scenario questions,
+                                    live coding, evals, and FastAPI. A portfolio
+                                    story you can defend.
                                   </p>
                                   <Link
                                     href="/page-features"

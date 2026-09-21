@@ -16,10 +16,14 @@ export const metadata = {
   applicationName: siteConfig.name,
   authors: [{ name: siteConfig.name, url: getSiteUrl() }],
   keywords: [
+    "Generative AI",
+    "LLMs",
+    "RAG",
+    "LangChain",
     "Agentic AI",
-    "AI course",
+    "Python",
+    "Machine Learning",
     "interview prep",
-    "portfolio projects",
     "Build or Pass",
   ],
   icons: {

@@ -113,7 +113,7 @@ export const testimonials2 = [
   {
     brandImg: "/assets/images/brands/brand-02.svg",
     testimonial:
-      "“Structured weeks, a project every step, then mock interviews. I walked in with a portfolio I could defend.”",
+      "“Six tracks, a project every step, then mock interviews. I walked in with a portfolio I could defend.”",
     authorImg: "/assets/images/avatars/01.png",
     authorName: "Mark Zellers",
     authorRole: "Backend Engineer",

@@ -9,9 +9,9 @@ import Testimonials from "@/components/homes/home-3/Testimonials";
 import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
 export const metadata = {
-  title: "Waitlist || Build or Pass — Agentic AI Course",
+  title: "Waitlist || Build or Pass — Generative AI Course",
   description:
-    "Join the Build or Pass course waitlist. Projects, interview prep, job-ready Agentic AI. Pricing opens with the first cohort. No payment now.",
+    "Join the Build or Pass course waitlist. Python, LLMs, RAG, agents, interview prep. Pricing opens with the first cohort. No payment now.",
 };
 export default function PricingPage() {
   return (

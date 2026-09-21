@@ -8,9 +8,9 @@ import Faq from "@/components/homes/home-2/Faq";
 // import Brands from "@/components/common/Brands2";
 // import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
-  title: "Join waitlist || Build or Pass — Agentic AI Course",
+  title: "Join waitlist || Build or Pass — Generative AI Course",
   description:
-    "Join the Build or Pass course waitlist. Interview prep, portfolio projects, job-ready Agentic AI. No payment now.",
+    "Join the Build or Pass course waitlist. Interview prep, portfolio projects, Generative AI. No payment now.",
 };
 export default function ContactPage() {
   return (

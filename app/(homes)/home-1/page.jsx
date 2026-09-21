@@ -11,9 +11,9 @@ import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/homes/home-1/Cta";
 import Footer1 from "@/components/footers/Footer1";
 export const metadata = {
-  title: "Build or Pass — Agentic AI Course",
+  title: "Build or Pass — Generative AI Course",
   description:
-    "A hands-on Agentic AI course. Build real projects, prep for interviews, and get hired with a portfolio you can defend. Join the waitlist.",
+    "A hands-on Generative AI course. Python, ML, LLMs, RAG, agents, and interview prep — with a portfolio you can defend. Join the waitlist.",
 };
 export default function HomePage1() {
   return (

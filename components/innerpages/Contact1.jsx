@@ -93,8 +93,8 @@ export default function Contact1() {
                   >
                     <p className="fs-6 text-dark dark:text-white text-opacity-70 mb-2">
                       Join the waitlist. Tell us if you need interview prep,
-                      projects for your portfolio, or a job-ready agent story.
-                      We email you when the first cohort opens.
+                      portfolio projects, or a Generative AI story you can
+                      defend. We email you when the first cohort opens.
                     </p>
                     <div className="row child-cols-12 sm:child-cols-6 g-2">
                       <div>

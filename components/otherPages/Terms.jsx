@@ -14,13 +14,13 @@ export default function Terms() {
           <div className="page-content panel fs-6 md:fs-5">
             <p>
               These Terms of Service (“Terms”) govern use of the Build or Pass
-              website and the Agentic AI course (the “Course”). By joining the
+              website and the Generative AI course (the “Course”). By joining the
               waitlist, creating an account, or paying for a seat, you accept
               these Terms.
             </p>
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">The Course</h3>
             <p>
-              Build or Pass is an online Agentic AI course. It covers skills,
+              Build or Pass is an online Generative AI course. It covers skills,
               portfolio projects, and interview prep. Curriculum, dates, and
               format (live labs and/or recordings) are described on this
               website and in emails we send when seats open. We may update

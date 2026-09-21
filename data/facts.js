@@ -9,24 +9,23 @@ export const facts = [
   {
     id: 2,
     count: 6,
-    description: "Weeks to interview-ready",
+    description: "Curriculum tracks",
     animation:
       "onview: -100; textContent: [0, 6]; round: 1; easing: linear; duration: 1200;",
   },
   {
     id: 3,
+    count: 22,
+    description: "Modules from Python to LLMOps",
+    animation:
+      "onview: -100; textContent: [0, 22]; round: 1; easing: linear; duration: 1200;",
+  },
+  {
+    id: 4,
     count: 4,
     description: "Portfolio projects you keep",
     animation:
       "onview: -100; textContent: [0, 4]; round: 1; easing: linear; duration: 1200;",
-  },
-  {
-    id: 4,
-    count: 100,
-    description: "Hands-on, not slides",
-    animation:
-      "onview: -100; textContent: [0, 100]; round: 1; easing: linear; duration: 1200;",
-    suffix: "%",
   },
 ];
 
@@ -57,9 +56,15 @@ export const panelsData = [
   },
   {
     value: 6,
-    text: "Weeks to interview-ready.",
+    text: "Curriculum tracks.",
     animationData:
       "onview: -100; textContent: [0, 6]; round: 1; easing: linear; duration: 1200;",
+  },
+  {
+    value: 22,
+    text: "Modules from Python to LLMOps.",
+    animationData:
+      "onview: -100; textContent: [0, 22]; round: 1; easing: linear; duration: 1200;",
   },
   {
     value: 4,

@@ -4,7 +4,6 @@ import Link from "next/link";
 import Nav from "./component/Nav";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
-import { openContactModal } from "@/utlis/toggleContactModal";
 // import LanguageSelect2 from "../common/LanguageSelect2";
 // uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky uc-sticky-below uc-sticky-fixed
 // --uc-nav-height: 80px; position: fixed !important; width: 1205px !important; margin-top: 0px !important; top: 0px;
@@ -78,16 +77,6 @@ export default function Header2() {
                 </ul>
               </div>
               <div className="uc-navbar-right">
-                <div className="d-none xl:d-block">
-                  <a
-                    className="text-none fw-medium"
-                    onClick={openContactModal}
-                    data-uc-toggle=""
-                    role="button"
-                  >
-                    <span>Join waitlist</span>
-                  </a>
-                </div>
                 {/* <div className="d-none lg:d-block">
                   <Link className="text-none fw-medium" href={`/sign-in`}>
                     <span>Log in</span>

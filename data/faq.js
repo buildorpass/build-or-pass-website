@@ -3,7 +3,7 @@ export const accordionItems = [
     id: 1,
     question: "Do I need to know how to code?",
     answer:
-      "Yes — basic Python is enough. You do not need a machine-learning background. If you can follow a tutorial and ship a small script, you can take this course.",
+      "Basic Python helps. You do not need to already know ML. The course starts with Python, statistics, and machine learning, then moves to LLMs, RAG, and agents.",
     controls: "uc-accordion-24",
     expanded: true,
   },
@@ -11,7 +11,7 @@ export const accordionItems = [
     id: 2,
     question: "Will this help with interviews?",
     answer:
-      "Yes. You build projects you can demo, then practice explaining architecture, tradeoffs, and failure modes — the questions hiring teams ask for AI and agent roles.",
+      "Yes. You build Generative AI projects you can demo, then practice scenario questions, live coding, and walking through RAG and agents — the rounds hiring teams run.",
     controls: "uc-accordion-26",
     expanded: false,
   },
@@ -19,7 +19,7 @@ export const accordionItems = [
     id: 3,
     question: "What projects will I build?",
     answer:
-      "Working agents: tool calling, RAG over your docs, multi-agent workflows, and a final portfolio piece with evals. GitHub-ready for interviews — not slide decks.",
+      "RAG over your docs, LLM and agent apps with LangChain or LangGraph, multi-agent workflows, and a FastAPI deploy with evals. GitHub-ready for interviews — not slide decks.",
     controls: "uc-accordion-28",
     expanded: false,
   },
@@ -55,7 +55,7 @@ export const accordionItems2 = [
     title: "Build real projects",
     icon: "/assets/images/common/icons/zap.svg",
     content:
-      "Every module ends in a working agent you can put on GitHub and demo.",
+      "Tracks end in working RAG, LLM, and agent projects you can put on GitHub and demo.",
     isOpen: false,
   },
   {

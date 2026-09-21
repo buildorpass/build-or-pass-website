@@ -6,7 +6,7 @@ import Refund from "@/components/otherPages/Refund";
 export const metadata = {
   title: "Cancellation and refund policy || Build or Pass",
   description:
-    "Cancellation and refund policy for the Build or Pass Agentic AI course. Required for payment checkout.",
+    "Cancellation and refund policy for the Build or Pass Generative AI course. Required for payment checkout.",
 };
 export default function RefundPage() {
   return (

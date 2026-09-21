@@ -4,9 +4,9 @@ import Footer2 from "@/components/footers/Footer2";
 import Breadcumb from "@/components/otherPages/Breadcumb";
 import Terms from "@/components/otherPages/Terms";
 export const metadata = {
-  title: "Terms || Build or Pass — Agentic AI Course",
+  title: "Terms || Build or Pass — Generative AI Course",
   description:
-    "Terms of service for the Build or Pass Agentic AI course.",
+    "Terms of service for the Build or Pass Generative AI course.",
 };
 export default function TermsPage() {
   return (

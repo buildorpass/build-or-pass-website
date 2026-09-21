@@ -50,7 +50,7 @@ export default function Hero() {
                 Course curriculum.
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Skills, projects, interview prep — from first agent to a
+                Python, ML, LLMs, RAG, agents, and interview prep — then a
                 job-ready portfolio you can defend.
               </p>
             </div>

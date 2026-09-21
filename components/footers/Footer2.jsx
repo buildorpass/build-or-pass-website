@@ -25,8 +25,8 @@ export default function Footer2() {
                         />
                       </Link>
                       <p>
-                        An Agentic AI course. Build projects, prep for
-                        interviews, get hired.
+                        A Generative AI course. Python, LLMs, RAG, agents, and
+                        interview prep.
                       </p>
                     </div>
                     {/* Theme app-store badges — keep unlinked

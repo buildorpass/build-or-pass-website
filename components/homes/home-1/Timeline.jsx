@@ -16,7 +16,7 @@ export default function Timeline() {
                 className="h4 sm:h3 lg:h2 m-0 text-center"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
               >
-                From first lesson to interview-ready
+                Six tracks to interview-ready
               </h2>
               <div
                 style={{ width: "fit-content", maxWidth: "330px" }}

@@ -11,9 +11,9 @@ import Timeline from "@/components/homes/home-1/Timeline";
 import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/innerpages/Cta";
 export const metadata = {
-  title: "About || Build or Pass — Agentic AI Course",
+  title: "About || Build or Pass — Generative AI Course",
   description:
-    "Build or Pass is an Agentic AI course. Build real projects, prep for interviews, and get hired with a portfolio you can defend.",
+    "Build or Pass is a Generative AI course. Python, ML, LLMs, RAG, agents, interview prep, and a portfolio you can defend.",
 };
 export default function AboutPage() {
   return (

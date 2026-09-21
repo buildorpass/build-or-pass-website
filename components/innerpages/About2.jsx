@@ -40,13 +40,14 @@ export default function About2() {
               <h2 className="h3 lg:h2 mb-4">What the course is for</h2>
               <p className="fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
                 Prompt tutorials will not get you hired. This course is for
-                three things: build real Agentic AI projects, prep to explain
-                them in interviews, and walk in with a job-ready portfolio.
+                three things: build real Generative AI projects, prep to
+                explain them in interviews, and walk in with a job-ready
+                portfolio.
               </p>
               <p className="fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
-                You ship working agents, practice the walkthrough hiring teams
-                ask for, and leave with a story you can defend. Join the
-                waitlist. No payment now.
+                You ship RAG, LLM, and agent projects, practice the walkthrough
+                hiring teams ask for, and leave with a story you can defend.
+                Join the waitlist. No payment now.
               </p>
               <div className="panel mt-6">
                 <div className="row child-cols-6 lg:child-cols-4 justify-center g-3 col-match">

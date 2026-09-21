@@ -6,7 +6,7 @@ export const panelsData = [
     altText: "impact-icon",
     title: "Build",
     description:
-      "Ship real agent projects you can put on GitHub and demo live.",
+      "Ship RAG, LLM, and agent projects you can put on GitHub and demo live.",
   },
   {
     id: 2,

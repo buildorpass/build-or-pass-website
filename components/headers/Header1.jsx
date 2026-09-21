@@ -3,7 +3,6 @@ import Nav from "./component/Nav";
 import Link from "next/link";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
-import { openContactModal } from "@/utlis/toggleContactModal";
 // import LanguageSelect2 from "../common/LanguageSelect2";
 import { useEffect, useState } from "react";
 
@@ -76,16 +75,6 @@ export default function Header1() {
               </ul>
             </div>
             <div className="uc-navbar-right">
-              <div className="d-none xl:d-block">
-                <a
-                  className="text-none fw-medium"
-                  onClick={openContactModal}
-                  data-uc-toggle=""
-                  role="button"
-                >
-                  <span>Join waitlist</span>
-                </a>
-              </div>
               {/* <div className="d-none lg:d-block">
                 <Link className="text-none fw-medium" href={`/sign-in`}>
                   <span>Log in</span>

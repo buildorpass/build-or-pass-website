@@ -21,7 +21,7 @@ export default function Cta() {
                 </Link>
               </div>
               <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                No payment now. Projects, interview prep, get hired.
+                No payment now. Generative AI, interview prep, get hired.
               </p>
             </div>
             <div className="position-absolute top-50 ltr:end-0 rtl:start-0 translate-middle-y z-1 ltr:me-8 rtl:ms-8 d-none lg:d-block">

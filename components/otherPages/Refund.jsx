@@ -15,7 +15,7 @@ export default function Refund() {
           </header>
           <div className="page-content panel fs-6 md:fs-5">
             <p>
-              This policy applies to paid seats for the Build or Pass Agentic
+              This policy applies to paid seats for the Build or Pass Generative
               AI course. Waitlist signup is free and can be cancelled by
               emailing us; no payment is taken for the waitlist itself.
             </p>

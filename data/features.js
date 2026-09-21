@@ -6,7 +6,7 @@ export const panelData = [
     altText: "impact-icon",
     title: "Build",
     description:
-      "Ship real agent projects you can put on GitHub and demo live.",
+      "Ship RAG, LLM, and agent projects you can put on GitHub and demo live.",
   },
   {
     id: 2,
@@ -154,39 +154,39 @@ export const features3 = [
 export const features4 = [
   {
     icon: "unicon-document",
-    title: "Core Agentic AI",
+    title: "Python & ML foundations",
     description:
-      "Tool calling, agent loops, and RAG — the skills interviews actually test.",
+      "Python, statistics, machine learning, and deep learning — the base interviews still test.",
   },
   {
     icon: "unicon-model",
-    title: "Portfolio projects",
+    title: "Generative AI & LLMs",
     description:
-      "Ship working agents you can demo on GitHub, not unfinished notebooks.",
+      "Prompt engineering, LLM internals, fine-tuning, and transformer architecture Q&A.",
   },
   {
     icon: "unicon-task-approved",
-    title: "Interview prep",
+    title: "RAG systems",
     description:
-      "Explain architecture, tradeoffs, and failure modes the way hiring teams ask.",
+      "Build and defend retrieval pipelines — from first RAG to advanced production patterns.",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "Multi-agent systems",
+    title: "Agentic AI",
     description:
-      "Build and walk through LangGraph and CrewAI-style workflows in interviews.",
+      "LangChain, LangGraph, CrewAI, AutoGen, and agent patterns with tools.",
   },
   {
     icon: "unicon-sub-volume",
-    title: "Production basics",
+    title: "LLMOps & deployment",
     description:
-      "Evals, tracing, and MCP so you can talk about shipping — not just demos.",
+      "FastAPI, evals, safety and guardrails, then ship the model path.",
   },
   {
     icon: "unicon-currency",
-    title: "Get hired",
+    title: "Interview prep",
     description:
-      "One clear story: what you built, why, and how you would do it in the job.",
+      "Scenario questions, live coding, agents-and-tools rounds, and stats/ML interview math.",
   },
 ];
 
@@ -332,37 +332,37 @@ export const features6 = [
   {
     id: 1,
     imgSrc: "/assets/images/template/feature-01.svg",
-    imgAlt: "Learn the skills interviews actually test",
-    title: "Learn the skills interviews actually test",
+    imgAlt: "Python and ML foundations",
+    title: "Python & ML foundations",
     description:
-      "Tool calling, agent loops, RAG, and multi-agent. Enough to build projects — and to answer interview follow-ups.",
+      "Python for AI engineers, statistics and math, machine learning, then deep learning. You start here — then LLMs make sense.",
     link: null,
   },
   {
     id: 2,
     imgSrc: "/assets/images/template/feature-02.svg",
-    imgAlt: "Ship portfolio projects you can demo",
-    title: "Ship portfolio projects you can demo",
+    imgAlt: "Generative AI and LLMs",
+    title: "Generative AI & LLMs",
     description:
-      "Each module ends in a working agent. You leave with GitHub projects you can demo in interviews.",
+      "Prompt engineering, LLM internals, fine-tuning, and transformer architecture Q&A. The core of a Generative AI interview.",
     link: { text: "Join the waitlist", href: "/page-pricing" },
   },
   {
     id: 3,
     imgSrc: "/assets/images/template/feature-03.svg",
-    imgAlt: "Prep to explain your work in interviews",
-    title: "Prep to explain your work in interviews",
+    imgAlt: "Agentic AI with LangChain and LangGraph",
+    title: "Agentic AI",
     description:
-      "Architecture, tradeoffs, evals, and failure modes. Practice walking through your projects the way interviewers ask.",
+      "LangChain, LangGraph, CrewAI, AutoGen, and agent patterns. RAG and tools included — so you can build and walk through agents.",
     link: null,
   },
   {
     id: 4,
     imgSrc: "/assets/images/template/feature-04.svg",
-    imgAlt: "Get hired with a story you can defend",
-    title: "Get hired with a story you can defend",
+    imgAlt: "Interview prep for Generative AI roles",
+    title: "Interview prep",
     description:
-      "A shipped agent, a clear write-up, and the language to defend it — to get hired, switch roles, or ship AI at work.",
+      "Scenario questions, live coding, agents-and-tools rounds, evals, and FastAPI deployment. A story you can defend to get hired.",
     link: null,
   },
 ];

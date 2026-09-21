@@ -20,8 +20,8 @@ export default function Pricing() {
                   Join the waitlist. Course pricing opens with the first cohort.
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                  No payment now. Full course: projects, interview prep, get
-                  hired.
+                  No payment now. Full course: Generative AI, projects,
+                  interview prep.
                 </p>
               </div>
               <div className="panel w-100 lg:max-w-900px border rounded-3 overflow-hidden">

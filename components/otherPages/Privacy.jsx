@@ -14,7 +14,7 @@ export default function Privacy() {
           <div className="page-content panel fs-6 md:fs-5">
             <p>
               This Privacy Policy applies to the Build or Pass website and the
-              Agentic AI course (the “Course”). It explains what personal
+              Generative AI course (the “Course”). It explains what personal
               information we collect, why we collect it, and how we use it.
               By using this website, joining the waitlist, or paying for a
               seat, you agree to this policy.

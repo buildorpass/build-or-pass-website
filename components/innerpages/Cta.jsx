@@ -88,7 +88,7 @@ export default function Cta() {
                 Build the projects. Pass the interview.
               </h2>
               <p className="fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
-                First cohort waitlist. Projects, interview prep, get hired.
+                First cohort waitlist. Generative AI, interview prep, get hired.
               </p>
               <Link
                 href={`/page-contact`}

@@ -5,7 +5,7 @@ export const panels = [
     darkIcon: "/assets/images/template/icon-location-dark.svg",
     altText: "location-icon",
     title: "Curriculum",
-    description: "Projects, interview prep, job-ready skills.",
+    description: "Python, LLMs, RAG, agents, interview prep.",
     linkText: "See curriculum",
     linkUrl: "/page-features",
   },

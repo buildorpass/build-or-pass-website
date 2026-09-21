@@ -169,7 +169,7 @@ export default function Hero() {
                     data-anime="targets: >*; translateY: [24, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                   >
                     <h1 className="h2 sm:h1 lg:display-6 xl:display-4 mt-4 sm:mt-0">
-                      Learn Agentic AI.{" "}
+                      Learn Generative AI.{" "}
                       <br className="d-none sm:d-block" />
                       Build. Interview. Get hired.
                     </h1>
@@ -226,7 +226,7 @@ export default function Hero() {
                   <a
                     className="cstack text-none position-absolute top-50 start-50 translate-middle bg-white text-primary w-64px h-64px sm:w-80px sm:h-80px rounded-circle shadow-md"
                     onClick={() => setOpen(true)}
-                    data-caption="Learn Agentic AI. Build. Interview. Get hired."
+                    data-caption="Learn Generative AI. Build. Interview. Get hired."
                     data-attrs="width: 640; height: 480;"
                   >
                     <i className="icon icon-2 sm:icon-3 unicon-play-filled-alt" />

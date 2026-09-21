@@ -4,9 +4,9 @@ import Footer2 from "@/components/footers/Footer2";
 import Breadcumb from "@/components/otherPages/Breadcumb";
 import Privacy from "@/components/otherPages/Privacy";
 export const metadata = {
-  title: "Privacy || Build or Pass — Agentic AI Course",
+  title: "Privacy || Build or Pass — Generative AI Course",
   description:
-    "Privacy policy for the Build or Pass Agentic AI course.",
+    "Privacy policy for the Build or Pass Generative AI course.",
 };
 export default function PrivacyPage() {
   return (

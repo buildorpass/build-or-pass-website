@@ -13,7 +13,7 @@ export default function Shipping() {
           </header>
           <div className="page-content panel fs-6 md:fs-5">
             <p>
-              Build or Pass is a digital Agentic AI course. We do not ship
+              Build or Pass is a digital Generative AI course. We do not ship
               physical goods, kits, or printed materials.
             </p>
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">What is delivered</h3>

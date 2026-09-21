@@ -18,7 +18,7 @@ export const pricingTiers = [
   {
     id: 2,
     title: "Builder",
-    description: "Full course: projects, interviews, job-ready agents.",
+    description: "Full course: Generative AI, projects, interviews.",
     price: "TBA",
     priceInfo: "First cohort. Price opens with seats.",
     buttonLabel: "Join waitlist",
@@ -198,7 +198,7 @@ export const tiers3 = [
   },
   {
     title: "Builder",
-    description: "Full course: projects, interviews, job-ready agents.",
+    description: "Full course: Generative AI, projects, interviews.",
     price: "Waitlist",
     yearlyPrice: "TBA",
     priceDetails: "First cohort. Price opens with seats.",
@@ -215,7 +215,7 @@ export const tiers3 = [
   },
   {
     title: "Teams",
-    description: "For companies that want a shared Agentic AI course.",
+    description: "For companies that want a shared Generative AI course.",
     price: "Talk to us",
     yearlyPrice: "Talk to us",
     priceDetails: "Company seats. Details on request.",

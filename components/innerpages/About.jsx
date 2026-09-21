@@ -46,9 +46,9 @@ export default function About() {
                 About Build or Pass.
               </h1>
               <p className="fs-6 md:fs-5 text-dark dark:text-white text-opacity-70">
-                Build or Pass is an Agentic AI course. You build real projects,
-                prep for interviews, and leave job-ready — with a portfolio you
-                can demo and defend.
+                Build or Pass is a Generative AI course. You learn Python, ML,
+                LLMs, RAG, and agents, prep for interviews, and leave with a
+                portfolio you can demo and defend.
               </p>
             </div>
             <div className="panel row child-cols-12 col-match g-1 sm:g-2">

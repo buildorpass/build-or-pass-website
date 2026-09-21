@@ -6,7 +6,7 @@ import Shipping from "@/components/otherPages/Shipping";
 export const metadata = {
   title: "Delivery policy || Build or Pass",
   description:
-    "Digital delivery policy for the Build or Pass Agentic AI course. No physical shipping.",
+    "Digital delivery policy for the Build or Pass Generative AI course. No physical shipping.",
 };
 export default function ShippingPage() {
   return (

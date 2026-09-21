@@ -9,9 +9,9 @@ import Cta from "@/components/innerpages/features/Cta";
 // Theme brand-logo carousel — keep unlinked
 // import Brands2 from "@/components/common/Brands2";
 export const metadata = {
-  title: "Curriculum || Build or Pass — Agentic AI Course",
+  title: "Curriculum || Build or Pass — Generative AI Course",
   description:
-    "What the Build or Pass course covers: Agentic AI skills, portfolio projects, interview prep, and getting hired.",
+    "What the Build or Pass course covers: Python, ML, LLMs, RAG, Agentic AI, LLMOps, and interview prep.",
 };
 export default function FeaturesPage() {
   return (
